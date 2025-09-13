@@ -8,9 +8,9 @@ import traceback
 # =========================
 # 🔑 CONFIGURAÇÕES
 # =========================
-ASSEMBLY_KEY = "65861cbde5274868a971bf9996deed43"  # Sua chave AssemblyAI
-GEMINI_KEY = "AIzaSyBYNOepm2WsceHg0rPQ7wIKbcIIE7OEcXk"  # Sua chave Gemini
-KANBAN_URL = "http://10.0.0.178:5000/chamado/create"  # URL do seu backend Flask
+ASSEMBLY_KEY = "sua chave"  # Sua chave AssemblyAI
+GEMINI_KEY = "sua chave"  # Sua chave Gemini
+KANBAN_URL = "http:29838749283742"  # URL do seu backend Flask
 
 if not GEMINI_KEY:
     raise RuntimeError("❌ A chave do Gemini não foi encontrada.")
